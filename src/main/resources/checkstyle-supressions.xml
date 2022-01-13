@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+  "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+  "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+  <!-- Reason: App.java has only main() static method but is not a utility class -->
+  <suppress checks="HideUtilityClassConstructor" files="Application.java"/>
+  <!-- Reason: App.java is standard Spring Boot entry-point and does not need documentation -->
+  <suppress checks="JavadocType" files="App.java"/>
+  <!-- Reason: main method is standard Spring Boot entry-point and does not need documentation -->
+  <suppress checks="JavadocMethod" files="App.java"/>
+  <!-- Reason: most entities will have getters setters and constructors which hide fields -->
+  <suppress checks="HiddenField" files="[\\/]statement[\\/].*\.java$"/>
+  <suppress checks="HiddenField" files="[\\/]claimant[\\/].*\.java$"/>
+  <suppress checks="HiddenField" files="[\\/]bankdetails[\\/].*\.java$"/>
+  <!-- Reason: most entities will have getters setters and constructors which hide fields -->
+  <suppress checks="HiddenField" files="[\\/]dwp.jsa[\\/].*\.java$"/>
+  <!-- Reason: Allow spaces at the end of the translation line-->
+  <suppress checks="RegexpSingleline" files="[\\/]i18n[\\/]"/>
+  <suppress checks="ParameterNumber" files="Claimant.java"/>
+  <suppress checks="ParameterNumber" files="CurrentWork.java"/>
+  <suppress checks="ParameterNumber" files="PreviousWork.java"/>
+  <suppress checks="ParameterNumber" files="Circumstances.java"/>
+  <suppress checks="ParameterNumber" files="ClaimantRequest.java"/>
+  <suppress checks="ParameterNumber" files="PensionDetail.java"/>
+  <suppress checks="ParameterNumber" files="PensionBuilder.java"/>
+  <!--  Reason: we can ignore these for now as this class will be deleted -->
+  <suppress checks="MagicNumberCheck" files="StatementFactory.java" lines="7-66"/>
+  <suppress checks="MagicNumberCheck" files="ClaimStatementController.java" lines="18-33"/>
+
+  <!-- new Line at end of file -->
+  <suppress checks="NewlineAtEndOfFile" files="Statement.java"/>
+  <suppress checks="NewlineAtEndOfFile" files="ClaimStatementController.java"/>
+
+  <!-- Reason: there are so many imports of the same package IntellJ adds the star -->
+  <suppress checks="AvoidStarImport" files="StatementFactory.java" lines="3-5"/>
+
+
+</suppressions>

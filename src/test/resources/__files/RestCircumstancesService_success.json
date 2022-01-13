@@ -1,0 +1,317 @@
+{
+  "claimantId": "590a3cfe-f5b8-4e1d-b300-948cb5af2664",
+  "claimStartDate": "2018-10-22",
+  "dateOfClaim": "2018-10-22",
+  "declarationAgreed": false,
+  "hasNonUKWorkBenefit": false,
+  "hasExtraPrevWork": true,
+  "locale": "en",
+  "currentWork": [
+    {
+      "employerName": "Current Employer Name",
+      "employerPhoneNumber": "01632960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "netPay": 80,
+      "paymentFrequency": "WEEKLY",
+      "canChooseIfPaid": false,
+      "hoursPerWeek": 44,
+      "paid": true,
+      "voluntary": false,
+      "voluntaryJobPaid": false,
+      "selfEmployedOrDirector": true
+    },
+    {
+      "employerName": "Employer",
+      "employerPhoneNumber": "01632960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "netPay": 55,
+      "paymentFrequency": "FORTNIGHTLY",
+      "canChooseIfPaid": false,
+      "hoursPerWeek": 55,
+      "paid": true,
+      "voluntary": false,
+      "voluntaryJobPaid": false,
+      "selfEmployedOrDirector": true
+    },
+    {
+      "employerName": "Employr",
+      "employerPhoneNumber": "01632960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "netPay": 66,
+      "paymentFrequency": "FOURWEEKLY",
+      "canChooseIfPaid": false,
+      "hoursPerWeek": 66,
+      "paid": true,
+      "voluntary": false,
+      "voluntaryJobPaid": false,
+      "selfEmployedOrDirector": true
+    },
+    {
+      "employerName": "Employer",
+      "employerPhoneNumber": "01632960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "netPay": 77,
+      "paymentFrequency": "MONTHLY",
+      "canChooseIfPaid": false,
+      "hoursPerWeek": 77,
+      "paid": true,
+      "voluntary": false,
+      "voluntaryJobPaid": false,
+      "selfEmployedOrDirector": true
+    }
+  ],
+  "hasExtraCurrentJobs": true,
+  "previousWork": [
+    {
+      "employerName": "Employer",
+      "employerPhoneNumber": "01632 960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "startDate": "2018-09-22",
+      "endDate": "2018-10-22",
+      "reasonEnded": "REDUNDANCY",
+      "otherReasonDetails": "",
+      "paymentExpected": true,
+      "selfEmployedOrDirector": true
+    },
+    {
+      "employerName": "Employer",
+      "employerPhoneNumber": "01632 960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "startDate": "2018-09-22",
+      "endDate": "2018-10-22",
+      "reasonEnded": "LONG_SICKNESS",
+      "otherReasonDetails": "",
+      "paymentExpected": true,
+      "selfEmployedOrDirector": true
+    },
+    {
+      "employerName": "Em",
+      "employerPhoneNumber": "01632 960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "startDate": "2018-09-22",
+      "endDate": "2018-09-22",
+      "reasonEnded": "DISMISSAL",
+      "otherReasonDetails": "",
+      "paymentExpected": true,
+      "selfEmployedOrDirector": true
+    },
+    {
+      "employerName": "Employer",
+      "employerPhoneNumber": "01632 960630",
+      "employerAddress": {
+        "firstLine": "Street Address First Line",
+        "secondLine": "",
+        "postCode": "M115pw",
+        "town": "Manchester",
+        "country": null
+      },
+      "startDate": "2018-09-22",
+      "endDate": "2018-10-22",
+      "reasonEnded": "DISMISSAL",
+      "otherReasonDetails": "",
+      "paymentExpected": true,
+      "selfEmployedOrDirector": true
+    }
+  ],
+  "education": {
+    "courseName": "City and Guilds Photography and a very long name which consists of a more than sixty characters so that we can test unlimited character limit",
+    "hoursPerWeek": 18.5,
+    "startDate": "2020-06-09",
+    "endDate": "2020-12-12",
+    "institutionName": "Walsall College and a very long name which consists of a more than sixty characters so that we can test unlimited character limit"
+  },
+  "juryService": {
+    "startDate": "2017-10-22",
+    "endDate": "2018-10-22"
+  },
+  "availability": null,
+  "otherBenefit": {
+    "description": "Detail of benefits that I'm waiting for"
+  },
+  "pensions": {
+    "current": [
+      {
+        "startDate": "2018-09-01",
+        "providerName": "Provider",
+        "netPay": 11,
+        "paymentFrequency": "WEEKLY",
+        "hasPeriodicIncrease": true,
+        "pensionIncreaseMonth": "OCTOBER",
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      },
+      {
+        "startDate": "2018-09-01",
+        "providerName": "Provider 2",
+        "netPay": 22,
+        "paymentFrequency": "FORTNIGHTLY",
+        "hasPeriodicIncrease": true,
+        "pensionIncreaseMonth": "NOVEMBER",
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      },
+      {
+        "startDate": "2018-09-01",
+        "providerName": "Provider 3",
+        "netPay": 33,
+        "paymentFrequency": "FOURWEEKLY",
+        "hasPeriodicIncrease": true,
+        "pensionIncreaseMonth": "DECEMBER",
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      }
+    ],
+    "deferred": [
+      {
+        "startDate": "2018-09-01",
+        "providerName": "Provider",
+        "netPay": 11,
+        "paymentFrequency": "WEEKLY",
+        "hasPeriodicIncrease": false,
+        "pensionIncreaseMonth": null,
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      },
+      {
+        "startDate": "2018-02-01",
+        "providerName": "Provider 2",
+        "netPay": 22,
+        "paymentFrequency": "FORTNIGHTLY",
+        "hasPeriodicIncrease": false,
+        "pensionIncreaseMonth": null,
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      },
+      {
+        "startDate": "2018-02-01",
+        "providerName": "Provider 3",
+        "netPay": 33,
+        "paymentFrequency": "FOURWEEKLY",
+        "hasPeriodicIncrease": false,
+        "pensionIncreaseMonth": null,
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      }
+    ],
+    "future": [
+      {
+        "startDate": "2019-10-01",
+        "providerName": "Provider",
+        "netPay": 11,
+        "paymentFrequency": "WEEKLY",
+        "hasPeriodicIncrease": false,
+        "pensionIncreaseMonth": null,
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      },
+      {
+        "startDate": "2018-11-01",
+        "providerName": "Provider 2",
+        "netPay": 22,
+        "paymentFrequency": "FORTNIGHTLY",
+        "hasPeriodicIncrease": false,
+        "pensionIncreaseMonth": null,
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      },
+      {
+        "startDate": null,
+        "providerName": "Provider 3",
+        "netPay": null,
+        "paymentFrequency": null,
+        "hasPeriodicIncrease": false,
+        "pensionIncreaseMonth": null,
+        "providerAddress": {
+          "firstLine": "Street Address First Line",
+          "secondLine": "",
+          "postCode": "M115pw",
+          "town": "Manchester",
+          "country": null
+        }
+      }
+    ],
+    "hasExtraPensions": true
+  }
+}
